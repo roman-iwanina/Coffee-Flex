@@ -9,7 +9,7 @@
   border: 0;
   outline: none;
   box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
 
 img {
@@ -40,18 +40,12 @@ html {
 .container {
   max-width: 1150px;
   width: 100%;
-  /* padding: 0 10px; */
-  margin: 180px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.content {
-  width: 1140px;
-  height: 440px;
+  height: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   text-align: center;
 }
 
@@ -74,11 +68,13 @@ p.price {
   font-size: 70px;
   color: #02995b;
   font-weight: bold;
+  margin-bottom: 25px;
 }
 
 h1 {
   font-family: "Miso";
   font-size: 56px;
+  margin-bottom: 15px;
 }
 
 .any-cup {
@@ -90,10 +86,9 @@ h1 {
 
 .cup:nth-child(2) {
   height: 500px;
-  margin-top: -30px;
-  align-items: center;
 }
 
 img {
   padding-left: 20px;
+  margin-bottom: 15px;
 }
